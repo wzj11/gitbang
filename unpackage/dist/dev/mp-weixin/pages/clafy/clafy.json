@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "carousel": "/components/vear-carousel/vear-carousel"
+  }
+}

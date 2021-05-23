@@ -1,0 +1,1 @@
+<view class="re-title flex-row align-center"><text class="text-bold text-lg">{{titleValue}}</text><text data-event-opts="{{[['tap',[['toWholeInfo',['$event']]]]]}}" class="text-gray text-xs" bindtap="__e">{{moreValue}}</text><block wx:if="{{moreValue!=''}}"><text class="fa fa-angle-right text-gray text-xs"></text></block></view>

@@ -1,0 +1,63 @@
+
+.re-card {
+	width: 94vw;
+	min-height: 310rpx;
+	max-height: 370rpx;
+	margin-top: 20rpx;
+}
+.card-top {
+	width: 96%;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.card-top .job-name {
+	width: 80%;
+}
+.card-top .job-salary {
+	width: 20%;
+}
+.tag-list {
+	width: 96%;
+	height: 60rpx;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	overflow: hidden;
+}
+.tag-list .tag-item {
+	height: 40rpx;
+	line-height: 40rpx;
+	padding: 0 10rpx;
+	font-size: 12px;
+	border-radius: 5rpx;
+	color: #606266;
+	margin-left: 10rpx;
+	margin-top: 10rpx;
+	white-space: nowrap;
+}
+.tag-list .tag-item:first-of-type {
+	margin-left: 0;
+}
+.place {
+	width: 96%;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.user-info {
+	width: 96%;
+	height: 90rpx;
+	position: relative;
+}
+.user-info text:last-of-type {
+	position: absolute;
+	right: 0;
+	font-size: 13px;
+	color: #606266;
+}
+.offer-date {
+	width: 96%;
+	height: 60rpx;
+	line-height: 60rpx;
+	border-top: 1px solid #f1f1f1;
+	font-size: 13px;
+}
+

@@ -1,0 +1,169 @@
+{
+		
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [
+		{
+			"path": "pages/clafy/clafy",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "list"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/messsage/messsage",
+			"style": {
+				"navigationBarTitleText": "信息"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详细信息"
+			}
+		},
+		
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "list"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "chat"
+			}
+		},
+		
+		{
+		    "path" : "pages/user/myResume/myResume",
+		    "style" : {
+				"navigationBarTitleText": "我的简历"
+			}
+		},
+		{
+		    "path" : "pages/user/allOffer/allOffer",
+		    "style" : {
+				"navigationBarTitleText": "我的投递"
+			}
+		}
+		,{
+		    "path" : "pages/user/report/report",
+		    "style" : {
+				"navigationBarTitleText": "举报投诉"
+			}
+		}
+		,{
+		    "path" : "pages/user/setting/setting",
+		    "style" : {
+				"navigationBarTitleText": "设置"
+			}
+		}
+		,{
+		    "path" : "pages/user/share/share",
+		    "style" : {
+				"navigationBarTitleText": "分享推广"
+			}
+		}
+	    ,{
+            "path" : "pages/user/Favorite/Favorite",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏"
+		}
+		}
+	    ,{
+            "path" : "pages/recruit/recruit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+            "path" : "pages/newrecruit/newrecruit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "xintu",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+            "path" : "pages/user/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "浏览历史",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/testmessage/testmessage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "聊",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true ,
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#feeeed",
+		"backgroundColor":"#74787c",
+		"selectedColor":"#F5DF4D",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/img/tarbar/kecheng-2.png",
+				"selectedIconPath":"static/img/tarbar/kecheng.png"
+			},
+			{
+				"text":"分类",
+				"pagePath":"pages/clafy/clafy",
+				"iconPath":"./static/img/tarbar/huore.png",
+				"selectedIconPath":"./static/img/tarbar/huore-2.png"
+			},
+			{
+				"text":"消息",
+				"pagePath":"pages/chat/chat",
+				"iconPath":"./static/img/tarbar/red.png",
+				"selectedIconPath":"./static/img/tarbar/xiaoxi.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/user/user",
+				"iconPath":"./static/img/tarbar/wode-2.png",
+				"selectedIconPath":"./static/img/tarbar/wode-3.png"
+			}
+		]
+	}
+}

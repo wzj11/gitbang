@@ -1,0 +1,41 @@
+
+page {
+		background: url('http://tiebapic.baidu.com/forum/w%3D580%3B/sign=624318b7b8c379317d688621dbffb645/a8014c086e061d9510c8ed896cf40ad163d9caf1.jpg');
+}
+.all {
+		margin: 20rpx;
+}
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.photo {
+	float: left;
+	position: relative;
+	width: 33%;
+	padding: 14% 0 14%;
+	border: 1px solid #000000;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	justify-items: center;
+}
+image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.submit {
+	text-align: center;
+}
+

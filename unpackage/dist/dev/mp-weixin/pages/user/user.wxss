@@ -1,0 +1,63 @@
+
+.container {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.shoucang{
+	width: 30rpx;
+	height: 30rpx;
+}
+.btlogup{
+	width: 200rpx;
+	height: 80rpx;
+}
+.head {
+	width: 100vw;
+	height: 260rpx;
+	background-color: #aa00ff;
+}
+.head .info-card {
+	width: 94%;
+	margin-left: 3%;
+	height: 170rpx;
+}
+.info-card .card-left {
+	width: 74%;
+	height: 100%;
+}
+.info-card .card-left .img-box {
+	width: 30%;
+	height: 50%;
+	margin-top: 40rpx;
+}
+.info-card .card-left .text-box {
+	width: 70%;
+	height: 100%;
+	color: white;
+}
+.text-box .login{
+	font-size: 50rpx;
+}
+.menu-list {
+	width: 94%;
+	height: 160rpx;
+	margin-top: -90rpx;
+}
+.menu-item {
+	height: 160rpx;
+}
+.menu-item image {
+	width: 64rpx;
+	height: 64rpx;
+}
+.menu-item text {
+	font-size: 15px;
+	margin-top: 14rpx;
+}
+.func-list {
+	width: 100vw;
+	margin-top: 30rpx;
+	height: 500rpx;
+}
+

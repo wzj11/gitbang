@@ -1,0 +1,1 @@
+<view class="container flex-column align-center"><view class="post-card bg-white radius-xs margin-top-lg flex-row flex-center"><textarea placeholder="请输入投诉内容"></textarea></view><view class="re-btn bg-blue text-white re-btn-lg">提交投诉</view></view>

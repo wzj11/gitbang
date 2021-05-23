@@ -1,0 +1,124 @@
+
+.head-info {
+	width: 94vw;
+	height: 280rpx;
+}
+.head-info .head-left {
+	height: 100%;
+	-webkit-box-flex: 7;
+	-webkit-flex: 7;
+	        flex: 7;
+}
+.head-info .head-right {
+	height: 100%;
+	-webkit-box-flex: 3;
+	-webkit-flex: 3;
+	        flex: 3;
+}
+.upload{
+	height: 100%;
+	width: 100%;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-align-content: center;
+	        align-content: center;
+}
+.sex-edu {
+	width: 80%;
+	grid-gap: 20rpx;
+}
+.sex-box{
+	height: 80rpx;
+}
+.edu-box{
+	height: 80rpx;
+	width: 133%;
+}
+.sex-box picker{
+	width: 30%;
+}
+.edu-box picker {
+	width: 44%;
+}
+.name-box,
+.date-box {
+	width: 92%;
+	height: 80rpx;
+}
+.name-box input,
+.date-box picker {
+	width: 80%;
+}
+.phone,
+.mail,
+.qq{
+	width: 92%;
+	height: 80rpx;
+}
+.phone input,
+.mail input,
+.qq input{
+	width: 80%;
+}
+.join-job-time,
+.current-place,
+.education,
+.census-place,
+.political-status,
+.highestedu,
+.search-status {
+	width: 94%;
+	height: 80rpx;
+}
+.join-job-time picker,
+.current-place picker,
+.education picker,
+.census-place picker,
+.political-status picker,
+.highestedu picker,
+.search-status picker {
+	width: 66%;
+}
+.wzj {
+	padding-right: 10px;
+}
+.expect-industry {
+	width: 94%;
+	height: 220rpx;
+}
+.head-tip {
+	width: 94%;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.industry-list {
+	width: 94%;
+	height: 160rpx;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	/* justify-content: space-between; */
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+}
+.industry-list .item {
+	height: 50rpx;
+	line-height: 50rpx;
+	padding: 0 10rpx;
+	background-color: #F1F2F6;
+	border-radius: 5rpx;
+	margin-left: 20rpx;
+}
+.expect-job {
+	width: 94%;
+	height: 140rpx;
+}
+.job {
+	width: 94%;
+	height: 80rpx;
+}
+.re-btn {
+	margin-bottom: 100rpx;
+}
+

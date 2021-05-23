@@ -1,0 +1,9 @@
+
+.menu-list {
+	width: 100%;
+	height: auto;
+}
+.re-btn {
+	margin-top: 100rpx;
+}
+

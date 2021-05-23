@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/clafy/clafy",
+    "pages/list/list",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/messsage/messsage",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/chat/chat",
+    "pages/user/myResume/myResume",
+    "pages/user/allOffer/allOffer",
+    "pages/user/report/report",
+    "pages/user/setting/setting",
+    "pages/user/share/share",
+    "pages/user/Favorite/Favorite",
+    "pages/recruit/recruit",
+    "pages/newrecruit/newrecruit",
+    "pages/user/history/history",
+    "pages/testmessage/testmessage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#feeeed",
+    "backgroundColor": "#74787c",
+    "selectedColor": "#F5DF4D",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tarbar/kecheng-2.png",
+        "selectedIconPath": "static/img/tarbar/kecheng.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/clafy/clafy",
+        "iconPath": "./static/img/tarbar/huore.png",
+        "selectedIconPath": "./static/img/tarbar/huore-2.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/chat/chat",
+        "iconPath": "./static/img/tarbar/red.png",
+        "selectedIconPath": "./static/img/tarbar/xiaoxi.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user",
+        "iconPath": "./static/img/tarbar/wode-2.png",
+        "selectedIconPath": "./static/img/tarbar/wode-3.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于寻找附近的检测点"
+    }
+  },
+  "usingComponents": {
+    "title-bar": "/components/titleBar"
+  },
+  "sitemapLocation": "sitemap.json"
+}

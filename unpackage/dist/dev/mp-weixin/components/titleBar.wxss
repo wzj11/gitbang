@@ -1,0 +1,15 @@
+
+.re-title {
+	width: 94vw;
+	position: relative;
+	font-size: 13px;
+}
+.re-title text:nth-of-type(2) {
+	position: absolute;
+	right: 14rpx;
+}
+.re-title text:nth-of-type(3) {
+	position: absolute;
+	right: 0;
+}
+

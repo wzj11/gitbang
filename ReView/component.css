@@ -1,0 +1,322 @@
+/* 
+ ===== page =====
+ */
+
+view,
+scroll-view,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+image {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100vw;
+	min-height: 100vh;
+	height: auto;
+	background-color: #f1f1f1;
+}
+
+.mask {
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.activeBar {
+	color: white;
+	background-color: #4B7BEC;
+	border: none;
+}
+
+/* 
+ ===== flex =====
+ */
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+/* 
+ ===== grid =====
+ */
+
+.grid {
+	display: grid;
+}
+
+.col-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.row-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.row-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.row-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+/* 
+ ===== radius =====
+ */
+
+.radius-xs {
+	border-radius: 10rpx;
+}
+
+.radius-sm {
+	border-radius: 20rpx;
+}
+
+.radius-xl {
+	border-radius: 30rpx;
+}
+
+.radius-lg {
+	border-radius: 40rpx;
+}
+
+.round {
+	border-radius: 5000rpx;
+}
+
+
+/* 
+ ===== color =====
+ */
+
+.bg-white {
+	background-color: white;
+}
+
+.bg-red {
+	background-color: #e74c3c;
+}
+
+.bg-gray {
+	background-color: #f1f1f1;
+}
+
+.bg-green {
+	background-color: #26de81;
+}
+
+.bg-blue {
+	background-color: #4B7BEC;
+}
+
+.bg-orange {
+	background-color: #f1c40f;
+}
+
+/* 
+ ===== margin =====
+ */
+
+.margin-top-xs {
+	margin-top: 10rpx;
+}
+
+.margin-top-sm {
+	margin-top: 20rpx;
+}
+
+.margin-top-xl {
+	margin-top: 30rpx;
+}
+
+.margin-top-lg {
+	margin-top: 40rpx;
+}
+
+.margin-left-xs {
+	margin-left: 10rpx;
+}
+
+.margin-left-sm {
+	margin-left: 20rpx;
+}
+
+/*
+ ===== padding =====
+ */
+
+.padding-top-xs {
+	padding-top: 10rpx;
+}
+
+.padding-top-sm {
+	padding-top: 20rpx;
+}
+
+.padding-top-xl {
+	padding-top: 30rpx;
+}
+
+.padding-top-lg {
+	padding-top: 40rpx;
+}
+
+/*
+ ===== avatar =====
+ */
+
+.avatar {
+	width: 120rpx;
+	height: 120rpx;
+}
+
+.avatar-xs {
+	width: 64rpx;
+	height: 64rpx;
+	border-radius: 50%;
+}
+
+/*
+ ===== text =====
+ */
+
+.text-xs {
+	font-size: 14px;
+}
+
+.text-sm {
+	font-size: 16px;
+}
+
+.text-xl {
+	font-size: 18px;
+}
+
+.text-lg {
+	font-size: 20px;
+}
+
+.text-300 {
+	font-weight: 300;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-bolder {
+	font-weight: bolder;
+}
+
+.text-white {
+	color: white;
+}
+
+.text-red {
+	color: #e74c3c;
+}
+
+.text-gray {
+	color: #606266;
+}
+
+.text-black {
+	color: #333333;
+}
+
+.text-blue {
+	color: #4B7BEC;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/*
+ ===== button =====
+ */
+
+.re-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10rpx;
+	font-weight: 500;
+}
+
+.re-btn:active {
+	opacity: 0.9;
+}
+
+.re-btn-xs {
+	width: 140rpx;
+	height: 60rpx;
+}
+
+.re-btn-sm {
+	width: 160rpx;
+	height: 60rpx;
+}
+
+.re-btn-lg {
+	width: 94%;
+	height: 80rpx;
+}
+
+/*
+ ===== shadow =====
+ */
+
+.shadow-xs {
+	box-shadow: 0 0 10rpx rgba(0,0,0,.1);
+}
+
+.shadow-sm {
+	box-shadow: 0 0 20rpx rgba(0,0,0,.1);
+}
+
+/*
+ ===== border =====
+ */
+
+.border {
+	border: 1px solid #f1f2f6;
+}

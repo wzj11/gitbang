@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设置",
+  "usingComponents": {
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "re-list": "/components/listItem"
+  }
+}

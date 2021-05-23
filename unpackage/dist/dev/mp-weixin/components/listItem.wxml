@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['toFuncPage',['$event']]]]]}}" class="re-list flex-row align-center" bindtap="__e"><image src="{{icon}}"></image><text>{{name}}</text><text class="fa fa-angle-right"></text></view>

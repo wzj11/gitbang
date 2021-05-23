@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "popup-layer": "/components/songlazy-sl-filter/sl-filter/popup-layer",
+    "sl-filter-view": "/components/songlazy-sl-filter/sl-filter/filter-view"
+  }
+}

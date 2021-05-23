@@ -1,0 +1,14 @@
+
+.post-card {
+	width: 94%;
+	height: 400rpx;
+}
+.post-card textarea {
+	width: 94%;
+	height: 360rpx;
+	line-height: 40rpx;
+}
+.re-btn {
+	margin-top: 80rpx;
+}
+
